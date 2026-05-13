@@ -19,11 +19,11 @@ Kubespray provides a manual, step-by-step approach to deploying an Akash provide
 
 Kubespray is a composition of Ansible playbooks, inventory, provisioning tools, and domain knowledge for deploying production-ready Kubernetes clusters. For Akash providers, we use:
 
-- **Kubespray 2.29.1** - Latest stable release
-- **Kubernetes 1.33.5** - Officially supported version
-- **etcd 3.5.22** - Distributed key-value store
-- **containerd 2.1.4** - Container runtime
-- **Calico 3.30.3** - Container Network Interface (CNI)
+- **Kubespray 2.31.0** - Latest stable release
+- **Kubernetes 1.35.4** - Officially supported version
+- **etcd 3.6.10** - Distributed key-value store
+- **containerd 2.2.3** - Container runtime
+- **Calico 3.31.5** - Container Network Interface (CNI)
 
 ---
 
@@ -242,5 +242,5 @@ Start with the Kubernetes cluster setup:
 
 **→ [Kubernetes Setup Guide](/docs/providers/setup-and-installation/kubespray/kubernetes-setup)**
 
-This will walk you through deploying a production-grade Kubernetes cluster using Kubespray 2.29.1.
+This will walk you through deploying a production-grade Kubernetes cluster using Kubespray 2.31.0.
 
